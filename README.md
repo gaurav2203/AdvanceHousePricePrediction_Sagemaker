@@ -27,54 +27,6 @@ Implements Shadow Testing during deployment to run the model alongside the exist
 ## Project Dataset: 
 [Kaggle Dataset URL](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data)
 
-## Project Directory:
-|   README.md
-|   
-+---GuardRail and Shadow Testing
-|   |   Documentation.pdf
-|   |   GuardRail_Canary_Traffic_Shifting.ipynb
-|   |   Shadow_Testing.ipynb
-|   |   test-input-col.csv
-|   |   
-|   \---models
-|       +---model1
-|       |       model.tar.gz
-|       |       
-|       +---model2
-|       |       model.tar.gz
-|       |       
-|       \---model3
-|               model.tar.gz
-|               
-+---Jumpstart
-|   |   Documentation.pdf
-|   |   lightgbm-regression-model.ipynb
-|   |   
-|   \---project data
-|       +---test
-|       |       data.csv
-|       |       
-|       +---train
-|       |       data.csv
-|       |       
-|       \---val
-|               data.csv
-|               
-\---Model Training& Hyperparameter Tuning
-    |   Advance House Price Prediction.ipynb
-    |   data_description.txt
-    |   README.md
-    |   
-    +---.ipynb_checkpoints
-    |       Advance House Price Prediction-checkpoint.ipynb
-    |       
-    \---data
-            test.csv
-            train.csv
-            
-
-    
-
 ### Advantages of Using AWS GuardRail:
 1. **Model Governance and Compliance:**
    - GuardRail ensures adherence to predefined policies and regulatory standards, promoting ethical and compliant use of machine learning models.
